@@ -1,0 +1,18 @@
+[book]
+authors = ["Patrick Jusic"]
+description = "Bitgodine documentation"
+language = "en"
+multilingual = false
+src = "src"
+title = "Bitgodine Docs"
+
+[output.html]
+default-theme = "navy"
+git-repository-url = "https://github.com/xn3cr0nx/bitgodine"
+git-repository-icon = "fa-github"
+site-url = "https://docs.bitgodine.com"
+mathjax-support = true
+
+[output.html.playground]
+editable = true
+
