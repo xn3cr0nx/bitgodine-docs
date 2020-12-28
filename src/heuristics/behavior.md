@@ -5,4 +5,4 @@ Several wallets generate a fresh address by default for the change output. Hence
 <br/>
 <br/>
 
-*[1] Jonas David Nick. 2015.Data-Driven De-Anonymization inBitcoin. en. Master’s thesis. ETH Zurich, Zürich.doi: 10.3929/ethz-a-010541254. Master’s Thesis, Distributed ComputingGroup Computer Engineering and Networks Laboratory,ETH Zürich, August 9, 2015*
+_[1] Jonas David Nick. 2015.Data-Driven De-Anonymization inBitcoin. en. Master’s thesis. ETH Zurich, Zürich.doi: 10.3929/ethz-a-010541254. Master’s Thesis, Distributed ComputingGroup Computer Engineering and Networks Laboratory,ETH Zürich, August 9, 2015_

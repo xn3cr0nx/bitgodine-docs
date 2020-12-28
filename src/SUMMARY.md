@@ -2,23 +2,21 @@
 
 [Introduction](./introduction.md)
 
-- [Getting started](./chapter_1.md)
-  - [System Requirements](./chapter_1.md)
-  - [Install](./chapter_1.md)
-    - [Docker](./chapter_1.md)
-    - [Locally](./chapter_1.md)
-  - [Bitcoin full node](./chapter_1.md)
-  - [Parser](./chapter_1.md)
-  - [Clusterizer](./chapter_1.md)
+- [Getting started](./getting_started/getting_started.md)
+  - [System Requirements](./getting_started/system_requirements.md)
+  - [Install](./getting_started/install.md)
+  - [Bitcoin full node](./getting_started/bitcoin_full_node.md)
+  - [Parsing](./getting_started/parsing.md)
+  - [Clusterizing](./getting_started/clusterizing.md)
 
 ---
 
-- [Architecture](./chapter_1.md)
-  - [Parser](./chapter_1.md)
-  - [Clusterizer](./chapter_1.md)
-  - [Server](./chapter_1.md)
-  - [CLI](./chapter_1.md)
-  - [Spider](./chapter_1.md)
+- [Services](./services/services.md)
+  - [Parser](./services/parser.md)
+  - [Clusterizer](./services/clusterizer.md)
+  - [Server](./services/server.md)
+  - [CLI](./services/cli.md)
+  - [Spider](./services/spider.md)
   
 ---
 
