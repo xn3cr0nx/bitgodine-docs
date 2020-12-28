@@ -4,7 +4,7 @@ Crawler service that scrapes the web in order to extract new tags to identify ad
 
 ## Configuration
 
-```
+```txt
 Spider service crawling many web resources to sync and update addresses tags storage
 
 Usage:

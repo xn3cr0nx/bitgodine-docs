@@ -2,6 +2,7 @@
 
 Parser service parses the blockchain raw data files and extracts blocks in a convenient format.
 
+
 ## Configuration
 
 ```

@@ -4,7 +4,7 @@ Walks the parsed blocks and clusterizes addresses based on [Common Input heurist
 
 ## Configuration
 
-```
+```txt
 Clusterizer service in bitgodine architecture in charge of keeping
 cluster of addresses up to date based on chain stored in local storage.
 

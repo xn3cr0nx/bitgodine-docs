@@ -4,8 +4,8 @@ Command line interface that interacts with REST API to expose the same functiona
 
 ## Configuration
 
-```
-Cli implementation of Bitcoin forensic analysis tool to	investigate blockchain and Bitcoin malicious flows.
+```txt
+Cli implementation of Bitcoin forensic analysis tool to investigate blockchain and Bitcoin malicious flows.
 
 Usage:
   cli [command]

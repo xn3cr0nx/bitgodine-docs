@@ -7,17 +7,20 @@ The system installation is both available through Docker (suggested) or can be i
 You suggest to use the docker-compose file you can find in the main [bitgodine repository](https://github.com/xn3cr0nx/bitgodine) in order to easily bootstrap the entire system.
 
 First clone the repository:
-```
+
+```bash
 git clone https://github.com/xn3cr0nx/bitgodine.git
 ```
 
 Then run docker-compose:
-```
+
+```bash
 docker-compose up -d
 ```
 
 This will build bitgodine services and run the entire system. If you want to run production ready services, including web server, you can use the production file:
-```
+
+```bash
 docker-compose -f docker-compose.prod.yml up -d
 ```
 
@@ -37,16 +40,17 @@ You can find the instructions to install Go in the [offical reference](https://g
 
 Redis can be easily installed as service under Ubuntu with the following commands:
 
-```
+```bash
 sudo apt install redis-server
 ```
-```
+
+```bash
 sudo systemctl enable redis-server.service
 ```
 
 Check redis is correctly installed with
 
-```
+```bash
 redis-cli info
 ```
 
@@ -54,14 +58,57 @@ redis-cli info
 
 Postgres can be easily installed as service under Ubuntu with the following commands:
 
-```
+```bash
 sudo apt install postgresql postgresql-contrib
 ```
 
 Then you can access postgres in order to check it is correctly installed and running:
-```
+
+```bash
 sudo -i -u postgres
 ```
-```
+
+```bash
 psql
+```
+
+
+### Services
+
+All bitgodine services can be installed using Go.
+
+#### CLI
+
+```bash
+go get github.com/xn3cr0nx/bitgodine/cmd/cli
+```
+
+this will install the parser binary in your $GOPATH. Probably you want to rename the binary in order to have a less generic name in you PATH (and this can be done for all the other following services). You can rename the binary as follows:
+
+```bash
+mv $GOPATH/bin/parser $GOPATH/bin/bitgodine-cli
+```
+
+#### Parser
+
+```bash
+go get github.com/xn3cr0nx/bitgodine/cmd/parser
+```
+
+#### Clusterizer
+
+```bash
+go get github.com/xn3cr0nx/bitgodine/cmd/clusterizer
+```
+
+#### Server
+
+```bash
+go get github.com/xn3cr0nx/bitgodine/cmd/server
+```
+
+#### Spider
+
+```bash
+go get github.com/xn3cr0nx/bitgodine/cmd/spider
 ```

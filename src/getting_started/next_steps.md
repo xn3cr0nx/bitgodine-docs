@@ -6,9 +6,10 @@ First, you will need to parse the blockchain in order to store it in a proper wa
 
 If you ran docker-compose, all of this is already happening. Take care of you resources!
 
-```
+```bash
 sudo apt install htop
 ```
-```
+
+```bash
 htop
 ```

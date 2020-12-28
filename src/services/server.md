@@ -4,7 +4,7 @@ REST API the expose multiple endpoints to interact with the bitgodine system. Th
 
 ## Configuration
 
-```
+```txt
 Go implementation of Bitcoin forensic analysis tool to investigate blockchain and Bitcoin malicious flows.
 
 Usage:
