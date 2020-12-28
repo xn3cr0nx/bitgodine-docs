@@ -1,0 +1,3 @@
+# Shadow Address
+
+This heuristic is based on the same concept of the previous one, however we check the entire history looking for output addresses. In this case, if an address appeared before in the chain, the owner required a new payment recycling an old address. Thus, the corresponding output is not the change address of the transaction, because the owner is the receiver, while the change address is owned by the sender. However, if and only if the transaction is a two outputs transaction, we can assume the change address is the remaining one. This heuristic inherits the foolproof property from the Address Reuse heuristic, though under stricter conditions.
