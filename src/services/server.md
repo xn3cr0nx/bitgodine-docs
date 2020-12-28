@@ -1,6 +1,6 @@
 # Server
 
-REST API the expose multiple endpoints to interact with the bitgodine system.
+REST API the expose multiple endpoints to interact with the bitgodine system. The complete endpoint swagger documentation is available at [swagger.bitgodine.com](https://swagger.bitgodine.com).
 
 ## Configuration
 

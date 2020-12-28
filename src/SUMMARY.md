@@ -5,9 +5,7 @@
 - [Getting started](./getting_started/getting_started.md)
   - [System Requirements](./getting_started/system_requirements.md)
   - [Install](./getting_started/install.md)
-  - [Bitcoin full node](./getting_started/bitcoin_full_node.md)
-  - [Parsing](./getting_started/parsing.md)
-  - [Clusterizing](./getting_started/clusterizing.md)
+  - [Next steps](./getting_started/next_steps.md)
 
 ---
 
